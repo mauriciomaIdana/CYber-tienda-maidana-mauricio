@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+<div class="menu conteiner">
+    <a href="#"class="logo">Cyber store</a>
+    <input type="checkbox"id="menu"/>
+    <label for="menu"><img src="menu.png" class="menu-icono" alt=""></label>
+    <nav class="navbar">
+        <ul>
+            <LI><a href="index.html">INICIO</a></LI>
+            <LI><a href="Ubicacion.html">UBICACION</a><li>
+            <LI><a href="productos.html">PRODUCTOS</a></LI>
+            <li><a href="https://www.instagram.com/_mau.mv/" target="_blank">instagram</a></li>
+        </ul>
+    </nav>
+        <div>
+        <ul>
+            <li class="submenu">
+                <img src="car.svg" id="img_carrito" alt="">
+                <div id="carrito">
+                    <table id="lista_carrito">
+                        <thead>
+                            <tr>
+                                <th>imagen</th>
+                                <th>nombre</th>
+                                <th>precio</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <a href="#" id="vaciar_carrito" class="btn-3">vaciar carrito </a>
+                </div>
+            </li>
+        </ul>
+        </div>
+</div>
+
+    </header>
+    <section class="promos conteiner "id="lista1" >
+
+        <h2>$$ PROMOCIONES EPICAS $$</h2>
+
+        <div class="categories">
+
+            <div class="categorie">
+
+                <div class="categorie-1">
+                    <h3>Teclado + Mause gamer razer rgb</h3>
+                    <div class="prices">
+                        <p class="prices-1">$60000</p>
+                        <p class="preces-2">$55999</p>
+                        <div>
+                    <a href="#"class="agregar-carrito btn-3" data-id="1">agregar al carrito</a>
+                        </div>
+                        <div class="categories-img">
+                            <img src="promo1.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="categories">
+
+                        <div class="categorie">
+            
+                            <div class="categorie-1">
+                                <h3>teclado + mause pad rgb</h3>
+                                <div class="prices">
+                                    <p class="prices-1">$20000</p>
+                                    <p class="preces-2">$17999</p>
+                                    <div>
+                                <a href="#"class="agregar-carrito btn-3" data-id="2">agregar al carrito</a>
+                                    </div>
+                                    <div class="categories-img">
+                                        <img src="promo2.png" alt="">
+                                    </div>
+                </div>
+                <div class="categories">
+                    <div class="categorie">
+        
+                        <div class="categorie-1">
+                            <h3>Audifonos jbl gamer </h3>
+                            <div class="prices">
+                                <p class="prices-1">$120000</p>
+                                <p class="preces-2">$100000</p>
+                                <div>
+                            <a href="#"class="agregar-carrito btn-3" data-id="3">agregar al carrito</a>
+                                </div>
+                                <div class="categories-img">
+                                    <img src="promo3.png" alt="">
+                                </div>
+            </div>
+            <div class="categories">
+                <div class="categorie">
+                    <div class="categorie-1">
+                        <h3>tira led de 15mt rgb</h3>
+                        <div class="prices">
+                            <p class="prices-1">$16000</p>
+                            <p class="preces-2">$14999</p>
+                            <div>
+                        <a href="#"class="agregar-carrito btn-3" data-id="4">agregar al carrito</a>
+                            </div>
+                            <div class="categories-img">
+                                <img src="promo4.png" alt="">
+                            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="productos-conteiner"id="lista2">
+        <h2> NUEVOS PRODUCTOS </h2>
+        <div class="swiper myswiper-2">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="NUEVOS-PRODUCTO1.png" alt="">
+                        <div class="product-txt">
+                            <h3>camara logitech streming</h3>
+                            <p>de alta definicion</p>
+                            <p class="precio">$50000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="NUEVOSPRODUCTOS2.PNG" alt="">
+                        <div class="product-txt">
+                            <h3>Mause pad red dragon  </h3> 
+                            <p>excelente calidad</p>
+                            <p class="precio">$40000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="nuevosproductos4.png" alt="">
+                        <div class="product-txt">
+                            <h3>ARO de luz</h3>
+                            <p>portatil</p>
+                            <p class="precio">$15000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="nuevosproductos3.png" alt="">
+                        <div class="product-txt">
+                            <h3>Impresora portatil hp</h3>
+                            <p>calidad premiun</p>
+                            <p class="precio">$70000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            
+        </div>
+    </section>
+<section class="productos conteiner"id="lista3">
+    <h2>productos</h2>
+    <div class="swiper myswiper-2">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="product">
+                    <img src="ph2.png" alt="">
+                    <div class="product-txt">
+                        <h3>auriculares inalambricos pro g5</h3>
+                        <p>calidad premiun</p>
+                        <p class="precio">$77000</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="9">agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="product">
+                    <img src="ph3.png" alt="">
+                    <div class="product-txt">
+                        <h3>auriculares inalambricos pro g5</h3>
+                        <p>calidad premiun</p>
+                        <p class="precio">$77000</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="10">agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="product">
+                    <img src="ph4.png" alt="">
+                    <div class="product-txt">
+                        <h3>auriculares inalambricos g51 </h3>
+                        <p>alta definicion en sonido</p>
+                        <p class="precio">$20000</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="11">agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="product">
+                    <img src="ph5.png" alt="">
+                    <div class="product-txt">
+                        <h3>auriculares inalambricos g21</h3>
+                        <p>calidad premiun</p>
+                        <p class="precio">$49000</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="12">agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+
